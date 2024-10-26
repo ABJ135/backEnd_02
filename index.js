@@ -7,5 +7,5 @@ const server = http.createServer((req, res)=> {
 const port = 8000;
 
 ServiceWorker.listen(port,()=>{
-    console.log("listening on port")
+    console.log(`listening on port ${port}`);
 });
